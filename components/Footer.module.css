@@ -1,0 +1,41 @@
+.footer {
+  border-top: 1px solid var(--border);
+  margin-top: 5rem;
+  padding: 2.5rem 2rem;
+  background: var(--cream);
+}
+
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.sub {
+  font-size: 0.7rem;
+  color: var(--stone);
+  letter-spacing: 0.06em;
+  margin-top: 2px;
+}
+
+.copy {
+  font-size: 0.7rem;
+  color: var(--stone);
+  letter-spacing: 0.04em;
+}
