@@ -22,7 +22,7 @@ export default function ContactPage() {
         <div className={styles.cards}>
           {/* LINE */}
           <a
-            href="https://line.me/ti/p/YOUR_LINE_ID"
+            href="https://line.me/ti/p/signalboss35"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.card}
@@ -34,7 +34,7 @@ export default function ContactPage() {
             </div>
             <div className={styles.cardBody}>
               <p className={styles.cardLabel}>LINE</p>
-              <p className={styles.cardValue}>@bossbangrak</p>
+              <p className={styles.cardValue}>signalboss35</p>
               <p className={styles.cardNote}>ติดต่อ · สอบถาม · ส่งรูปพระ</p>
             </div>
             <div className={styles.cardArrow}>→</div>
@@ -52,7 +52,7 @@ export default function ContactPage() {
             </div>
             <div className={styles.cardBody}>
               <p className={styles.cardLabel}>โทรศัพท์</p>
-              <p className={styles.cardValue}>08X-XXX-XXXX</p>
+              <p className={styles.cardValue}>0960909060</p>
               <p className={styles.cardNote}>จันทร์ – เสาร์ · 09.00 – 18.00 น.</p>
             </div>
             <div className={styles.cardArrow}>→</div>
@@ -60,7 +60,7 @@ export default function ContactPage() {
 
           {/* Facebook */}
           <a
-            href="https://www.facebook.com/bossbangrak"
+            href="https://www.facebook.com/AmuletBangRak"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.card}
