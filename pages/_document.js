@@ -17,7 +17,7 @@ export default function Document() {
         <meta property="og:title" content="บอส บางรัก — คลังพระเครื่องคัดคุณภาพ" />
         <meta property="og:description" content="พระเครื่องคัดสรรจากร้านบอส บางรัก มีบัตรรับรอง พร้อมใบประกาศงานประกวด" />
         <meta property="og:url" content="https://boss-bangrak.vercel.app" />
-        <meta property="og:image" content="https://boss-bangrak.vercel.app/og-image.jpg" />
+        <meta property="og:image" content="https://boss-bangrak.vercel.app/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:locale" content="th_TH" />
