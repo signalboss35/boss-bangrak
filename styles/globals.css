@@ -1,26 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Playfair+Display:wght@400;500;600&display=swap');
 
 :root {
-  --ivory: #FAFAF8;
+  --ivory: #F8F7F4;
+  --cream: #F0EDE6;
+  --navy: #1B2E4B;
+  --navy-mid: #2C4570;
+  --navy-light: #E8EDF5;
+  --gold: #B8963E;
+  --gold-light: #D4B96A;
   --charcoal: #1A1A1A;
-  --gold: #C9A96E;
-  --gold-light: #E8D5A3;
-  --gold-dark: #A07C45;
-  --cream: #F5F0E8;
   --stone: #6B6B6B;
-  --border: #E8E2D9;
+  --border: #DDD8CF;
   --white: #FFFFFF;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
 
 body {
   background-color: var(--ivory);
@@ -31,23 +26,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-/* Gold shimmer keyframe */
-@keyframes shimmer {
-  0% { background-position: -200% center; }
-  100% { background-position: 200% center; }
-}
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
 
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
